@@ -1,18 +1,23 @@
-<!-- Begin Login.tpl--><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html>
+<!-- Begin Login.tpl--><!doctype html>
+<html lang="en">
   <head>
     <title>Login</title>
     <meta name="">
     <meta name="description" content="MyIT CRM - The Best Open Source Repairs Business CRM program available!" />
     <meta name="keywords" content="CRM, Customer Relations Management, Work Orders, Invoicing, Billing, Payment Processing" />
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css">  
     <link href="css/default.css" rel="stylesheet" type="text/css">
   </head>
   <body>
+      <div class="container">
     <center>
       <table width="100%"  border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td align="center">
             <img src="{$company_logo}" alt="" height="114">
+            </td>
+          </tr>
       </table>
       <table width="100%"  border="0" cellspacing="0" cellpadding="2">
         <tr>
@@ -126,5 +131,6 @@
         </tr>
       </table>
     </center>
+        </div>
   </body>
 </html>

@@ -21,15 +21,17 @@ switch ($mode){
 ############################
 case "install":
 		/* display page header and start graphics */
-echo ("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n
-<html>\n
+echo ("<!doctype html>\n
+<html lang=\"en\">\n
 <head>\n
 	<title>MyIT Installer</title>\n
 	<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\n
+	<link href=\"../css/bootstrap.min.css\" rel=\"styleshee\" type=\"text/css\">\n
 	<link href=\"../css/default.css\" rel=\"stylesheet\" type=\"text/css\">\n
 
 </head>\n
 <body>\n
+<div class=\"container\">\n
 <center>\n
 <table width=\"100%\"  border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n
 	<tr>\n
@@ -238,7 +240,7 @@ if($error_flag == true) {
 	</tr>\n
 </table>\n
 </center>\n
-
+</div>\n
 </body>\n
 </html>\n");
 	break;
@@ -250,16 +252,18 @@ default:
 $default_path = resolveDocumentRoot();
 $default_server = get_server_name();
 
-echo ("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">
-<html>
+echo ("<!doctype html>\n
+<html lang=\"en\">\n
 <head>
 	<title>MYIT CRM Installer</title>
 	<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">
+	<link href=\"../css/bootstrap.min.css\" rel=\"stylesheet\" type=\"text/css\">\n
 	<link href=\"../css/default.css\" rel=\"stylesheet\" type=\"text/css\">");
 include('validate.js');
 echo ("
 </head>
 <body>
+<div class=\"container\">
 <p>&nbsp;</p>
 <center>
 <table width=\"100%\"  border=\"0\" cellspacing=\"0\" cellpadding=\"0\">
@@ -1185,7 +1189,7 @@ echo ("
 	</tr>
 </table>
 </center>
-
+</div>
 </body>
 </html>");
 	}
