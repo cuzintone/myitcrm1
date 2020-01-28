@@ -1,0 +1,14 @@
+/*
+    MyITCRM Upgrade Page
+    Author: Antony Gordon
+*/
+
+body {
+   /* background: #ffffff url('../images/board-capacitors-chip-159220.jpg') no-repeat center top; */
+    opacity: 0.2
+    background-size: cover;
+}
+
+.content {
+    color: #fff;
+}
