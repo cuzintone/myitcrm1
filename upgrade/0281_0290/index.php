@@ -10,7 +10,7 @@ switch ($mode) {
 ############################
     case "install":
 		/* display page header and start graphics */
-        echo ("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n
+        echo ("<!DOCTYPE HTML \">\n
 <html>\n
 <head>\n
 	<title>MyIT Upgrader</title>\n
